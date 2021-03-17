@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+echo Starting this historic event!
+
+i="0"
+
+numturns=$1
+
+focus=focus
+mkdir "${focus}"1
+mkdir "${focus}"2
+
+while [ $i -lt $numturns ]; do
+	i=$[$i+1]
+	player=$[($i % 2)+1]
+	echo Turn $i, player $player
+	timeout 1 ./player$player $board $focus$player $i $player
+done
+
+ls
+
+rm -r "${focus}"1
+rm -r "${focus}"2
+
