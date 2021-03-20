@@ -10,6 +10,20 @@ player=int(player)
 timeLim = int(timeLim)
 #0 empty, 1 p1, 2 p2, 3 p1k, 4 p2k
 
+
+def bitPos(num):
+    pos = 0
+    while not num&1:
+        pos += 1
+        num >>= 1
+    return pos
+
+def int2pos(num):
+    bp = bitPos(num)
+    print('bitpos', bin(num), bp)
+    return (bp%8, bp//8)
+
+
 #100k runs at 2.68s
 def readBoardBulk(board):
 
@@ -84,6 +98,19 @@ def pieces2board(pieces):
         board<<=64
         board+=pieces[3-i]
     return board
+
+def boards2move(oldBoard, newBoard):
+    diff = oldBoard^newBoard
+    low = 1<<bitPos(diff)
+    high = diff - low
+    printBoard(low)
+    printBoard(high)
+    print(int2pos(low))
+    print(int2pos(high))
+    if low&oldBoard:
+        return (int2pos(low),int2pos(high))
+    else:
+        return (int2pos(high),int2pos(low))
 
 #0 empty, 1 p1, 2 p2, 3 p1k, 4 p2k
 
@@ -210,7 +237,7 @@ def possMoves(board, player):
     emptySpace = fullmask - (playerPieces + enemyPieces)
     #fl, fr, bl, br
     moves = (lambda x:x>>9, lambda x:x>>7, lambda x:x<<7, lambda x:x<<9, lambda x:x<<9, lambda x:x<<7, lambda x:x>>7, lambda x:x>>9)
-    if player == 2:
+    if player == 1:
         #the same
         moves = (lambda x:x<<9, lambda x:x<<7, lambda x:x>>7, lambda x:x>>9, lambda x:x>>9, lambda x:x>>7, lambda x:x<<7, lambda x:x<<9 )
     fl = (moves[0](notright[player]&playerPieces))&(notPlayerPieces)
@@ -295,27 +322,24 @@ print("msbBin():",timeit.timeit(lambda: msbBin(random.randint(0,1844674407370955
 exit()
 '''
 
-def evalBoard(board): # currently just counts pieces, kings are double
+def evalBoard(board): # currently just counts pieces, kings are double, return positive for p0 advantage
     p = board2pieces(board)
-    print(p)
-    if player == 0:
-        return (2*bin(p[2]).count('1')+bin(p[0]).count('1')) - (2*bin(p[3]).count('1')+bin(p[3]).count('1'))
-    return (2*bin(p[3]).count('1')+bin(p[1]).count('1')) - (2*bin(p[2]).count('1')+bin(p[0]).count('1'))
-
+    count = (2*bin(p[2]).count('1')+bin(p[0]).count('1')) - (2*bin(p[3]).count('1')+bin(p[3]).count('1')) 
+    return count
 
 class Tree(object):
     def __init__(self, board=0, val=None):
         self.board = board
         self.val = val
-        printLong(self.val)
         self.children = {}
         self.hasChildren = False
 
     def populate(self, children):
+        j = 0
         for i in children:
-            self.children[i[0]] = Tree(i[1], i[0])
+            self.children[j] = Tree(i[1], i[0])
+            j += 1
             
-
     def find_minimax(self, minFirst, alpha, beta):
         if len(self.children) == 0:
             return (evalBoard(self.board), self.val)
@@ -337,8 +361,8 @@ class Tree(object):
                 if beta <= alpha:
                     break
             return (maxi, self.val)
-        return self.val
 
+'''
 printBoard(notright[1])
 printBoard(notleft[1])
 board = pieces2board(readBoardBulk(boardloc))
@@ -349,7 +373,6 @@ for pm in possMoves(board, player+1):
     print()
     print()
 exit()
-'''
 
     for PM in possMoves(pm[1], player+1):
         printBoard(PM[1])
@@ -359,23 +382,30 @@ exit()
 exit()
 '''
 
-def popPoss(tree, player, trace=5):
+board = pieces2board(readBoardBulk(boardloc))
+def popPoss(tree, player, trace=3):
     if trace == 0:
-        return
+        return 
     tree.populate(possMoves(tree.board, player))
     np = (player+1)%2
     for c in tree.children.values():
         popPoss(c, np, trace-1)
         
 
-
-n = 10000000
+'''
+n = 100000
 print("possMoves():",timeit.timeit(lambda: possMoves(board,player), number=n), 'per 100k')
 exit()
+'''
 root = Tree(board, 0)
 popPoss(root, player)
-print(root.find_minimax(False, float("-inf"), float("inf")))
-    
+mm = root.find_minimax(False, float("-inf"), float("inf"))
+newBoard = root.children[mm[1]].board
+move = boards2move(board, newBoard)
+printBoard(newBoard)
+print(move)
+for i in range(64):
+    print(int2pos(1<<i))
     
 
 
