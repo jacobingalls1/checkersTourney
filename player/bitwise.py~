@@ -58,14 +58,14 @@ print("Bitwise:",timeit.timeit(lambda: readBoardBitwise(board), number=n))
 fullmask = int('1111111111111111111111111111111111111111111111111111111111111111',2)
 home = (int('0000000000000000000000000000000000000000000000000000000011111111',2),
         int('1111111100000000000000000000000000000000000000000000000000000000',2))
-notleft = (fullmask-int('1000000010000000100000001000000010000000100000001000000010000000',2),
-        fullmask-int('0000000100000001000000010000000100000001000000010000000100000001',2))
-notright =(fullmask-int('0000000100000001000000010000000100000001000000010000000100000001',2),
-        fullmask-int('1000000010000000100000001000000010000000100000001000000010000000',2))
 left = (int('1000000010000000100000001000000010000000100000001000000010000000',2),
         int('0000000100000001000000010000000100000001000000010000000100000001',2))
 right =(int('0000000100000001000000010000000100000001000000010000000100000001',2),
         int('1000000010000000100000001000000010000000100000001000000010000000',2))
+notleft = (fullmask-left[0],
+           fullmask-left[1])
+notright = (fullmask-right[0],
+           fullmask-right[1])
 home = (int('1111111100000000000000000000000000000000000000000000000000000000',2), 
         int('0000000000000000000000000000000000000000000000000000000011111111',2))
 shifts = (0,64,128,172)
@@ -202,7 +202,6 @@ def handleJumps(fourDir, moves, board, player):
         ret[b] = (ret[b][0], king(ret[b][1], player))       
     return ret
 
-
 def possMoves(board, player):
     pieces = board2pieces(board)
     playerPieces = pieces[player]|pieces[player+2]
@@ -223,7 +222,7 @@ def possMoves(board, player):
         bl = (moves[2]((notright[player])&playerPieces))&(notPlayerPieces)
         br = (moves[3]((notleft[player])&playerPieces))&(notPlayerPieces)
 
-    #shifted by 1 move
+    #shift by 1 move additional move if jumping
     flJ = moves[4]((moves[0](fl&enemyPieces&notleft[player]))&emptySpace)
     frJ = moves[5]((moves[1](fr&enemyPieces&notright[player]))&emptySpace)
     blJ = moves[6]((moves[2](bl&enemyPieces&notleft[player]))&emptySpace)
@@ -283,7 +282,8 @@ def printBoard(board):
         mask >>= 1
     for i in range(8):
         print(' '.join(b[8*i:8*(i+1)]))
-
+    print()
+    print()
 
 '''
 import random
@@ -339,6 +339,8 @@ class Tree(object):
             return (maxi, self.val)
         return self.val
 
+printBoard(notright[1])
+printBoard(notleft[1])
 board = pieces2board(readBoardBulk(boardloc))
 printBoard(board)
 for pm in possMoves(board, player+1):
