@@ -283,14 +283,8 @@ def printBoard(board):
         mask >>= 1
     for i in range(8):
         print(' '.join(b[8*i:8*(i+1)]))
-
-
-for i in [notleft, notright]:
-    printBoard(i[0])
-    printBoard(i[1])
-
-
-
+    print()
+    print()
 
 '''
 import random

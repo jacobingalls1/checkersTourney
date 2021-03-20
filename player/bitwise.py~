@@ -285,13 +285,6 @@ def printBoard(board):
         print(' '.join(b[8*i:8*(i+1)]))
 
 
-for i in [notleft, notright, left, right, home]:
-    printBoard(i[0])
-    printBoard(i[1])
-
-
-
-
 '''
 import random
 n = 100000
