@@ -21,7 +21,7 @@ def bitPos(num):
 def int2pos(num):
     bp = bitPos(num)
     print('bitpos', bin(num), bp)
-    return (bp%8, bp//8)
+    return (7-bp%8, 7-bp//8)
 
 
 #100k runs at 2.68s
@@ -101,12 +101,8 @@ def pieces2board(pieces):
 
 def boards2move(oldBoard, newBoard):
     diff = oldBoard^newBoard
-    low = 1<<bitPos(diff)
-    high = diff - low
-    printBoard(low)
-    printBoard(high)
-    print(int2pos(low))
-    print(int2pos(high))
+    high = 1<<bitPos(diff)
+    low = diff - high
     if low&oldBoard:
         return (int2pos(low),int2pos(high))
     else:
@@ -211,12 +207,14 @@ def handleJumps(fourDir, moves, board, player):
             mask <<= 1
             move >>= 1
     #TODO check for double jumps
+    for b in ret:
+        printBoard(b[1])
     while True:
         newRet = []
         done = True
         for b in range(len(ret)):
             ret[b] = (ret[b][0], king(ret[b][1], player))
-            fJ = furtherJumps(moves, ret[b][1], player)
+            fJ = furtherJumps(moves, ret[b][1], player)#has the board state been updated? does not terminate
             if fJ:
                 done = False
                 newRet += fJ
@@ -383,7 +381,7 @@ exit()
 '''
 
 board = pieces2board(readBoardBulk(boardloc))
-def popPoss(tree, player, trace=3):
+def popPoss(tree, player, trace=5):
     if trace == 0:
         return 
     tree.populate(possMoves(tree.board, player))
@@ -397,15 +395,21 @@ n = 100000
 print("possMoves():",timeit.timeit(lambda: possMoves(board,player), number=n), 'per 100k')
 exit()
 '''
-root = Tree(board, 0)
-popPoss(root, player)
-mm = root.find_minimax(False, float("-inf"), float("inf"))
-newBoard = root.children[mm[1]].board
-move = boards2move(board, newBoard)
-printBoard(newBoard)
-print(move)
-for i in range(64):
-    print(int2pos(1<<i))
+def findMove(board, player):
+    root = Tree(board, 0)
+    popPoss(root, player)
+    mm = root.find_minimax(False, float("-inf"), float("inf"))
+    newBoard = root.children[mm[1]].board
+    move = boards2move(board, newBoard)
+    return move, newBoard
+
+
+for i in range(3):
+    f = findMove(board, player)
+    board=f[1]
+    player=(player+1)%2
+    printBoard(board)
+
     
 
 

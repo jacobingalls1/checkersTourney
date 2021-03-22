@@ -1,0 +1,1999 @@
+Traceback (most recent call last):
+  File "./bitwise.py", line 406, in <module>
+    f = findMove(board, player)
+  File "./bitwise.py", line 398, in findMove
+    popPoss(root, player)
+  File "./bitwise.py", line 388, in popPoss
+    popPoss(c, np, trace-1)
+  File "./bitwise.py", line 388, in popPoss
+    popPoss(c, np, trace-1)
+  File "./bitwise.py", line 388, in popPoss
+    popPoss(c, np, trace-1)
+  [Previous line repeated 1 more time]
+  File "./bitwise.py", line 385, in popPoss
+    tree.populate(possMoves(tree.board, player))
+  File "./bitwise.py", line 269, in possMoves
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 187, in furtherJumps
+    return handleJumps(fourDir, moves, board, player)
+  File "./bitwise.py", line 215, in handleJumps
+    fJ = furtherJumps(moves, ret[b][1], player)
+  File "./bitwise.py", line 149, in furtherJumps
+    pieces = board2pieces(board)
+  File "./bitwise.py", line 90, in board2pieces
+    for i in range(4):
+RecursionError: maximum recursion depth exceeded in comparison
